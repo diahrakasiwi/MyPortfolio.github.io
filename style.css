@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+/* Home */
+.Home { 
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: #90c;
+    border-bottom: 1px solid red;
+}
+
+/* Judul Profile Dosen */
+.logo {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+/* Membedakan Warna Tulisan */
+span {
+    color: red;
+}
+
+/* Mengatur Navbar */
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+/* Mengatur Navbar */
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+/* Mengatur Navbar */
+nav ul li a:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+/* Mengatur Navbar Ketika Di Klik */
+.btn a:hover {
+    transform: scale(1.2);
+    border: 2px solid darkred;
+    background-color: transparent;
+}
+
+/* Mengatur Foto */
+.image {
+    width: 400px;
+    height: auto;
+    bottom: 0;
+    position: absolute;
+}
+
+/* Mengatur Foto */
+.image img {
+    position: absolute;
+    height: 500px;
+    bottom: 0;
+    border-radius: 10px;
+    left: 10%;
+}
+
+/* Mengatur Isi Dari Konten */
+.content {
+    position: absolute;
+    top: 60%;
+    right: 15%;
+    transform: translateY(-50%);
+}
+
+/* Mengatur Tulisan Salam Harmoni */
+h4 {
+    color: red;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+/* Mengatur Nama Pak Aditra */
+h2 {
+    color: #90c;
+    font-size: 50px;
+    margin: 20px 0 20px;
+}
+
+/* Mengatur Profesi Pak Aditra */
+h3 {
+    color: #90c;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+/* Mengatur Tulisan More About Pak Aditra */
+.content a {
+    font-size: 20px;
+    background: #90c;
+    color: black;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+/* Mengatur Tulisan More About Pak Aditra Ketika Di Klik */
+.content a:hover {
+    background: transparent;
+    border: 2px solid black;
+}
+
+/* Mengatur About Pak Aditra */
+.About {
+    width: 100%;
+    padding: 100px 0;
+    background-color: white;
+}
+
+/* Mengatur About Pak Aditra */
+.About-Me {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Mengatur Foto Pada About Pak Aditra */
+.About-Me img {
+    height: auto;
+    width: 350px;
+    border-radius: 10px;
+}
+
+/* Mengatur Text Pada About Pak Aditra */
+.About-Text {
+    width: 550px;
+}
+
+/* Mengatur Judul Pada About Pak Aditra */
+.About-Text h2 {
+    color: black;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid red;
+}
+
+/* Mengatur Tulisan Profesi Pada About Pak Aditra */
+.About-Text h5 {
+    color: black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+/* Mengatur Isi Text Pada About Pak Aditra */
+.About-Text p {
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+/* Mengatur Tulisan Contact Pak Aditra Pada About Pak Aditra */
+.Contact {
+    background: #90c;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: .5s;
+    margin-top: 15px;
+}
+
+/* Mengatur Tulisan Contact Pak Aditra Pada About Pak Aditra Ketika Di Klik*/
+.Contact a :hover {
+    border: 2px solid black;
+    background: transparent white;
+    cursor: pointer;
+}
+
+/* Mengatur Penelitian */
+.Penelitian {
+    width: 100%;
+    padding: 2px 0;
+    margin-bottom: 10px;
+}
+
+/* Mengatur Tulisan Judul Penelitian */
+.title h2 {
+    color: black;
+    font-size: 75px;
+    width: 100%;
+    margin-bottom: 30px auto;
+    text-align: center;
+    border-bottom: 1px solid red;
+}
+
+/* Mengatur Sub-Judul Di Penelitian */
+.Text h4 {
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Mengatur Isi Di Tiap Sub-Judul Pada Penelitian */
+.Text p {
+    text-align: center;
+}
+
+/* Mengatur Pengabdian */
+.Pengabdian {
+    width: 100%;
+    padding: 2px 0;
+    margin-bottom: 10px;
+}
+
+/* Mengatur Tulisan Judul Pengabdian */
+.Pengabdian h2 {
+    color: black;
+    font-size: 75px;
+    width: 100%;
+    margin-bottom: 30px auto;
+    text-align: center;
+    border-bottom: 1px solid red;
+    margin-top: 100px;
+}
+
+/* Mengatur Sub-Judul Di Pengabdian */
+.Pengabdian h4 {
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Mengatur Isi Di Tiap Sub-Judul Pada Pengabdian */
+.Pengabdian p {
+    text-align: center;
+}
+
+/* Mengatur Kontak Pak Aditra */
+#contact {
+    padding: 30px 0;
+}
+
+.contact-list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 60px;
+    margin-top: 50px;
+}
+
+.contact-list div{
+    background: #90c;
+    font-size: 13px;
+    padding: 40px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.contact-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.contact-list div h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.contact-list div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* Mengatur Tulisan "Contact Pak Aditra" */
+.title h2 {
+    text-align: center;
+    font-size: 65px;
+    margin-top: 200px;
+}
+
+/* Mengatur Contact Ketika Di Klik */
+.contact-list div:hover {
+    background-color: black ;
+    transform: translateX(-10px);
+}
+
